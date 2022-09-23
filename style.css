@@ -1,0 +1,54 @@
+body{
+    margin: 20px;
+    font-family: Verdana, Tahoma, Geneva, sans-serif; 
+
+}
+
+.image{
+    width: 150px;
+    
+}
+
+.card{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    width: 400px;
+    margin: 0 auto; /*margin shorthand if margin top and bottom is same eg "40px" and left and right is "auto", then (margin: 40px auto;) */
+                        /*margin shorthand (margin: top right botton left;) it is used if the top,right,botton and left have different values*/
+    background: #ddebf8;
+    color: #2b2839;
+    border-bottom: 5px solid #d8cefe;
+    text-align: center;
+    text-shadow: 2px 2px 2px red;
+    box-shadow: 4px 4px yellow;
+}
+
+h4:hover{
+    background-color: yellow;
+}
+    
+.red{
+    height: 350px;
+    margin: 100px;
+    width: 350px;
+    background: red;
+    border-radius: 100%;
+    
+}
+
+.animate {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  animation-name: example;
+  animation-duration: 4s;
+}
+
+@keyframes example {
+    
+     0%   {background-color: red;}
+    25%  {background-color: yellow;}
+    50%  {background-color: blue;}
+    100% {background-color: green;}
+}
